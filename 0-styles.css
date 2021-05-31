@@ -256,6 +256,9 @@ header nav li a:hover {
     max-height: 0;
     transition: max-height 0.2s ease-out;
     justify-content: center;
+    position: absolute;
+    left: 40%;
+    margin-top: 40%;
   }
 
   header nav li {
@@ -266,6 +269,8 @@ header nav li a:hover {
   header .menu-icon {
     display: initial;
     order: -1;
+    position: absolute;
+    left: 0;
   }
 }
 
